@@ -1,0 +1,22 @@
+# 备份文件（避免递归备份）
+*.tar.gz
+*.zip
+
+# 临时文件
+*.tmp
+*.log
+
+# IDE 和编辑器
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 敏感信息（如果有）
+.env
+*.key
+*.pem
